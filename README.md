@@ -1,2 +1,3 @@
-# Android_Apps_412
-A collection of three Android applications made for a mobile development class. 
+# csci412_s19
+
+Mobile Device Programming CSCI 412
