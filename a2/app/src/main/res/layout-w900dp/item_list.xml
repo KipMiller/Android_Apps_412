@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:baselineAligned="false"
+    android:divider="?android:attr/dividerHorizontal"
+    android:orientation="horizontal"
+    android:showDividers="middle"
+    tools:context=".ItemListActivity">
+
+    <!--
+    This layout is a two-pane layout for the Items
+    master/detail flow.
+
+    -->
+
+    <LinearLayout
+        android:layout_width="287dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/header"
+            android:layout_width="287dp"
+            android:layout_height="wrap_content"
+            android:text="FILMS"
+            android:textSize="30dp"
+            android:padding="10dp"
+            android:textColor="@color/white"/>
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/item_list"
+            android:name="wwu.csci412.mille542_a2.ItemListFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            app:layoutManager="LinearLayoutManager"
+            tools:context="wwu.csci412.mille542_a2.ItemListActivity"
+            tools:listitem="@layout/item_list_content" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/item_detail_container"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="20" />
+
+</LinearLayout>

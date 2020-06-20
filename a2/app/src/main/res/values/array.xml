@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="movie_array">
+        <item>Star Wars</item>
+        <item>Jaws</item>
+        <item>Raiders of the Lost Ark</item>
+        <item>Grown Ups</item>
+        <item>The Exorcist</item>
+        <item>The Thing</item>
+        <item>Iron Man</item>
+        <item>UHF</item>
+        <item>Pulp Fiction</item>
+        <item>Ghostbusters</item>
+        <item>Austin Powers</item>
+        <item>Dumb and Dumber</item>
+        <item>Spaceballs</item>
+        <item>Jack and Jill</item>
+        <item>Goldeneye</item>
+        <item>Foodfight</item>
+    </string-array>
+</resources>
