@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">mille542_a1</string>
+    <string name="bio">Bio</string>
+    <string name="picture">Picture</string>
+    <string name="name">Name</string>
+    <color name="black">#000000</color>
+    <color name="blue">#0000FF</color>
+    <color name="green">#008000</color>
+    <color name="red">#FF0000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="purple">#551a8b</color>
+
+</resources>
